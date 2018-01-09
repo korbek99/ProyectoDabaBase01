@@ -13,6 +13,16 @@
 		1ED2F5BB1B854F4500A68F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2F5BA1B854F4500A68F1C /* Images.xcassets */; };
 		1ED2F5BE1B854F4500A68F1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2F5BC1B854F4500A68F1C /* LaunchScreen.xib */; };
 		1ED2F5CA1B854F4500A68F1C /* ProyectoDabaBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5C91B854F4500A68F1C /* ProyectoDabaBaseTests.swift */; };
+		1ED2F5E21B8550EB00A68F1C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5D81B8550EB00A68F1C /* FMDatabase.m */; };
+		1ED2F5E31B8550EB00A68F1C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5DA1B8550EB00A68F1C /* FMDatabaseAdditions.m */; };
+		1ED2F5E41B8550EB00A68F1C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5DC1B8550EB00A68F1C /* FMDatabasePool.m */; };
+		1ED2F5E51B8550EB00A68F1C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5DE1B8550EB00A68F1C /* FMDatabaseQueue.m */; };
+		1ED2F5E61B8550EB00A68F1C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5E11B8550EB00A68F1C /* FMResultSet.m */; };
+		1ED2F5E81B8552C100A68F1C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED2F5E71B8552C100A68F1C /* libsqlite3.0.dylib */; };
+		1ED2F5EA1B85629F00A68F1C /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5E91B85629F00A68F1C /* ModelManager.swift */; };
+		1ED2F5EC1B85634000A68F1C /* DataBaseDemo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2F5EB1B85634000A68F1C /* DataBaseDemo.sqlite */; };
+		1ED2F5EE1B85636E00A68F1C /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5ED1B85636E00A68F1C /* Util.swift */; };
+		1ED2F5F01B8563A800A68F1C /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2F5EF1B8563A800A68F1C /* StudentInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,23 @@
 		1ED2F5C31B854F4500A68F1C /* ProyectoDabaBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoDabaBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED2F5C81B854F4500A68F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED2F5C91B854F4500A68F1C /* ProyectoDabaBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoDabaBaseTests.swift; sourceTree = "<group>"; };
+		1ED2F5D61B8550EA00A68F1C /* ProyectoDabaBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProyectoDabaBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		1ED2F5D71B8550EB00A68F1C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1ED2F5D81B8550EB00A68F1C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		1ED2F5D91B8550EB00A68F1C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1ED2F5DA1B8550EB00A68F1C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		1ED2F5DB1B8550EB00A68F1C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1ED2F5DC1B8550EB00A68F1C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		1ED2F5DD1B8550EB00A68F1C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1ED2F5DE1B8550EB00A68F1C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1ED2F5DF1B8550EB00A68F1C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1ED2F5E01B8550EB00A68F1C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		1ED2F5E11B8550EB00A68F1C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		1ED2F5E71B8552C100A68F1C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1ED2F5E91B85629F00A68F1C /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		1ED2F5EB1B85634000A68F1C /* DataBaseDemo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataBaseDemo.sqlite; sourceTree = "<group>"; };
+		1ED2F5ED1B85636E00A68F1C /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		1ED2F5EF1B8563A800A68F1C /* StudentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED2F5E81B8552C100A68F1C /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +87,7 @@
 		1ED2F5A51B854F4500A68F1C = {
 			isa = PBXGroup;
 			children = (
+				1ED2F5E71B8552C100A68F1C /* libsqlite3.0.dylib */,
 				1ED2F5B01B854F4500A68F1C /* ProyectoDabaBase */,
 				1ED2F5C61B854F4500A68F1C /* ProyectoDabaBaseTests */,
 				1ED2F5AF1B854F4500A68F1C /* Products */,
@@ -77,12 +106,16 @@
 		1ED2F5B01B854F4500A68F1C /* ProyectoDabaBase */ = {
 			isa = PBXGroup;
 			children = (
+				1ED2F5D31B854F4C00A68F1C /* DataBase */,
 				1ED2F5B31B854F4500A68F1C /* AppDelegate.swift */,
 				1ED2F5B51B854F4500A68F1C /* ViewController.swift */,
 				1ED2F5B71B854F4500A68F1C /* Main.storyboard */,
 				1ED2F5BA1B854F4500A68F1C /* Images.xcassets */,
 				1ED2F5BC1B854F4500A68F1C /* LaunchScreen.xib */,
 				1ED2F5B11B854F4500A68F1C /* Supporting Files */,
+				1ED2F5E91B85629F00A68F1C /* ModelManager.swift */,
+				1ED2F5ED1B85636E00A68F1C /* Util.swift */,
+				1ED2F5EF1B8563A800A68F1C /* StudentInfo.swift */,
 			);
 			path = ProyectoDabaBase;
 			sourceTree = "<group>";
@@ -110,6 +143,26 @@
 				1ED2F5C81B854F4500A68F1C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ED2F5D31B854F4C00A68F1C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2F5EB1B85634000A68F1C /* DataBaseDemo.sqlite */,
+				1ED2F5D71B8550EB00A68F1C /* FMDatabase.h */,
+				1ED2F5D81B8550EB00A68F1C /* FMDatabase.m */,
+				1ED2F5D91B8550EB00A68F1C /* FMDatabaseAdditions.h */,
+				1ED2F5DA1B8550EB00A68F1C /* FMDatabaseAdditions.m */,
+				1ED2F5DB1B8550EB00A68F1C /* FMDatabasePool.h */,
+				1ED2F5DC1B8550EB00A68F1C /* FMDatabasePool.m */,
+				1ED2F5DD1B8550EB00A68F1C /* FMDatabaseQueue.h */,
+				1ED2F5DE1B8550EB00A68F1C /* FMDatabaseQueue.m */,
+				1ED2F5DF1B8550EB00A68F1C /* FMDB.h */,
+				1ED2F5E01B8550EB00A68F1C /* FMResultSet.h */,
+				1ED2F5E11B8550EB00A68F1C /* FMResultSet.m */,
+				1ED2F5D61B8550EA00A68F1C /* ProyectoDabaBase-Bridging-Header.h */,
+			);
+			name = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +209,8 @@
 		1ED2F5A61B854F4500A68F1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Apps4s;
 				TargetAttributes = {
@@ -193,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED2F5B91B854F4500A68F1C /* Main.storyboard in Resources */,
+				1ED2F5EC1B85634000A68F1C /* DataBaseDemo.sqlite in Resources */,
 				1ED2F5BE1B854F4500A68F1C /* LaunchScreen.xib in Resources */,
 				1ED2F5BB1B854F4500A68F1C /* Images.xcassets in Resources */,
 			);
@@ -212,8 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED2F5E21B8550EB00A68F1C /* FMDatabase.m in Sources */,
+				1ED2F5F01B8563A800A68F1C /* StudentInfo.swift in Sources */,
+				1ED2F5EE1B85636E00A68F1C /* Util.swift in Sources */,
+				1ED2F5EA1B85629F00A68F1C /* ModelManager.swift in Sources */,
 				1ED2F5B61B854F4500A68F1C /* ViewController.swift in Sources */,
+				1ED2F5E61B8550EB00A68F1C /* FMResultSet.m in Sources */,
+				1ED2F5E41B8550EB00A68F1C /* FMDatabasePool.m in Sources */,
 				1ED2F5B41B854F4500A68F1C /* AppDelegate.swift in Sources */,
+				1ED2F5E31B8550EB00A68F1C /* FMDatabaseAdditions.m in Sources */,
+				1ED2F5E51B8550EB00A68F1C /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +404,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ProyectoDabaBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProyectoDabaBase/ProyectoDabaBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +417,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ProyectoDabaBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProyectoDabaBase/ProyectoDabaBase-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +478,7 @@
 				1ED2F5CF1B854F4500A68F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ED2F5D01B854F4500A68F1C /* Build configuration list for PBXNativeTarget "ProyectoDabaBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +487,7 @@
 				1ED2F5D21B854F4500A68F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
